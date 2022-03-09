@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -g -Wall -Wextra -Werror
+CFLAGS = -g -Wall -Wextra -Werror -pedantic
 TARGET = hinfosvc
 FILES = hinfosvc.cpp
 all: $(TARGET)
