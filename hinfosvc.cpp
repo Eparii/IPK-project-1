@@ -29,8 +29,6 @@ std::string get_hostname()
     return hostname;
 }
 
-
-
 std::string get_cpuname()
 {
     FILE* fp = popen(R"(cat /proc/cpuinfo | grep "model name" | head -n 1 | awk -F ":" '{ sub (" ", "", $2); print $2}')", "r");

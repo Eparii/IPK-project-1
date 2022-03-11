@@ -15,7 +15,7 @@ Vrací síťové jméno počítače včetně domény, například:
 
 GET http://servername:12345/hostname
 
-merlin.fit.vutbr.cz
+    merlin.fit.vutbr.cz
 
 
 2. Získání informací o CPU 
